@@ -1,0 +1,14 @@
+{
+  "name": "entregavel_iv",
+  "version": "1.0.0",
+  "description": "Este repositório contém implementações de alguns algoritmos fundamentais com testes utilizando a biblioteca Jest.",
+  "main": "num.primos.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+
+  
+}
