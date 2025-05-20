@@ -4,6 +4,7 @@
 2. **Instale as dependências**:
    Certifique-se de ter o Node.js e o npm (Node Package Manager) instalados. 
    Para verificar a instalação de Node ou NPM, execute:
+   ```bash
    node -v
    npm -v
 
@@ -14,12 +15,14 @@
    npm install -g jest
    jest -v 
 
-3. **Package.json**:
+4. **Package.json**:
     No arquivo package.json criado pelo Node, altere ou insira a seguinte linha de codigo:
+   ```bash
     "scripts": {
     "test": "jest"
     }  
 
-4. **Execução**:
+5. **Execução**:
     Rode o processo com o comando:
+   ```bash
     npx jest
